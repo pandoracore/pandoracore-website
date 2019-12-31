@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family: IBM Plex Mono, IBM Plex Sans, IBM Plex Serif, Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:#fff;
+    line-height:1.6;
+    background-color: #000;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+        padding-top: 5rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+}
+#header img {
+    vertical-align: middle;
+    border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        width: 512px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+#header{
+    background-image:url('../img/Pandora-Boxchain-Head-Image.jpg');
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 0 140px;
+    width: 80%;
+    position: relative;
+    margin: 0%;
+}
+
+.header.text {
+    display: flex;
+    margin: 10%;
+    
+    
+}
+#header h1{
+    font-size: 50px;
+    line-height: 2;
+}
+
+#header p{
+    font-size: 20px;
+}
+
+
+.container {
+    background: #000;
+    margin:0;
+    padding: 0 140px;
+    text-align: center;
+    width: 80%;
+    position: relative;
+}
+.tech-prime {
+    background: #000;
+    color: #fff;
+    margin-top: 10%;
+    position: relative;
+}
+
+.tech-prime h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: inherit;
+    margin-top: 10%;
+    position: relative;
+}
+.tech-prime h4 {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.tech-blocks {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tech-blocks h3{
+    line-height: 1.2;
+}
+.tech-block-1 {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.tech-block-2 {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.tech-block-3 {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+.tech-block-4 {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.contact {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 0 140px;
+    width: 80%;
+        margin-top: 20%;
+}
+
+.contact h2 {
+    background: #000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 0 140px;
+    height: 10vh;
+    font-size: 40px;
+    padding: 0 140px;
+}
+
+.social-icons{
+   display: inline-flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.Twitter {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.Github{
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.Linkedin {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.Telegram {
+    position: relative;
+    margin: 2rem;
+    align-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons :hover {
+  background-color: #111111;
+}
+
+.footer {
+    text-align: center;
+    background: #000;
+    margin-bottom: 1rem;;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 0 140px;
+    width: 80%;
+}
